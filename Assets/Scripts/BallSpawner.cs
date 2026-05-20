@@ -3,27 +3,34 @@ using UnityEngine;
 
 public class BallSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject ballPrefab;
+    [SerializeField] GameObject[] ballPrefab = new GameObject[3];
     [SerializeField] Transform spawnPoint;
     public static BallSpawner Ballinstance;
+    private GameObject currentBall;
 
     void Start()
     {
-        Spawn();
-        EnableBall(ballPrefab);
+        SpawnBall();
     }
     void Awake()
     {
         Ballinstance = this;
     }
     IEnumerator SpawnDelay()
-    {
+    {   
+        DisableBall(currentBall);
+
         yield return new WaitForSeconds(2f);
-        EnableBall(ballPrefab);
-        Instantiate(ballPrefab, spawnPoint.position, spawnPoint.rotation);
+        currentBall.transform.position = spawnPoint.position;
+        currentBall.transform.rotation = spawnPoint.rotation;
+        EnableBall(currentBall);
     }
 
-    public void Spawn()
+    public void SpawnBall()
+    {
+        currentBall = Instantiate(ballPrefab[Random.Range(0, ballPrefab.Length)], spawnPoint.position, spawnPoint.rotation);
+    }
+    public void SpawnSystem()
     {
         StartCoroutine(SpawnDelay());
     }

@@ -19,16 +19,14 @@ public class GoalScore : MonoBehaviour
         {
             if (gameObject.CompareTag ("leftGoal"))
             {
-                ScoreManager.SMinstance.AddScore1();
-                BallSpawner.Ballinstance.Spawn();
-                BallSpawner.Ballinstance.DisableBall(other.gameObject);
+                ScoreManager.SMinstance.AddScore2();
+                BallSpawner.Ballinstance.SpawnSystem();
                 Player1.P1instance.ResetPos();
             }
             else if (gameObject.CompareTag ("rightGoal"))
             {
-                ScoreManager.SMinstance.AddScore2();
-                BallSpawner.Ballinstance.Spawn();
-                BallSpawner.Ballinstance.DisableBall(other.gameObject);
+                ScoreManager.SMinstance.AddScore1();
+                BallSpawner.Ballinstance.SpawnSystem();
                 Player1.P1instance.ResetPos();
             }
         }

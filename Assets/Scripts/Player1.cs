@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class Player1 : MonoBehaviour
@@ -14,26 +15,31 @@ public class Player1 : MonoBehaviour
     float moveX;
     float currentJumpForce;
     bool isJumping;
-    [SerializeField] private Vector3 p1pos;
+    private Vector3 pPos;
     public static Player1 P1instance;
+
+    public int player;
+    public Vector3 spawnPos;
+
+    public KeyCode jumpKey = KeyCode.H;
 
     void Awake()
     {
-        p1pos = new Vector3(-6.986f, -2.23944f, 0);
+        pPos = spawnPos;
     }
     void Start()
     {   
 
         P1instance = this;
         rb1 = GetComponent<Rigidbody2D>();       
-        moveX = Input.GetAxis("Horizontal");
+        
 
-        transform.position = p1pos;
+        transform.position = pPos;
     }
 
     public void ResetPos()
     {
-        transform.position = p1pos;
+        transform.position = pPos;
     }
 
     void Update()
@@ -57,13 +63,13 @@ public class Player1 : MonoBehaviour
     void ChargeJump()
     {
 
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(jumpKey))
         {
             isJumping = true;
             currentJumpForce = minJumpForce;
         }
 
-        if (Input.GetKey(KeyCode.H) && isJumping)
+        if (Input.GetKey(jumpKey) && isJumping)
         {
             currentJumpForce += jumpChargeRate * Time.deltaTime;
             currentJumpForce = Mathf.Clamp(currentJumpForce, minJumpForce, maxJumpForce);
@@ -71,7 +77,7 @@ public class Player1 : MonoBehaviour
             
         }
 
-        if (Input.GetKeyUp(KeyCode.H) && isJumping)
+        if (Input.GetKeyUp(jumpKey) && isJumping)
         {
             Jump();
             isJumping = false;
@@ -91,19 +97,9 @@ public class Player1 : MonoBehaviour
 
     void Movement()
     {
-       if (Input.GetKey(KeyCode.A))
-        {
-            moveX = -1f;
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            moveX = 1f;
-        }
-        else
-        {
-            moveX = 0f;
-        }
-        rb1.linearVelocityX = moveX * speed; 
+
+
+        rb1.linearVelocityX = Input.GetAxis("Horizontal"+player) * speed; 
     }
 
 }
