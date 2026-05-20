@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
 public class GoalScore : MonoBehaviour
 {
@@ -22,12 +21,14 @@ public class GoalScore : MonoBehaviour
                 ScoreManager.SMinstance.AddScore2();
                 BallSpawner.Ballinstance.SpawnSystem();
                 Player1.P1instance.ResetPos();
+                Player1.P2instance.ResetPos();
             }
             else if (gameObject.CompareTag ("rightGoal"))
             {
                 ScoreManager.SMinstance.AddScore1();
                 BallSpawner.Ballinstance.SpawnSystem();
                 Player1.P1instance.ResetPos();
+                Player1.P2instance.ResetPos();
             }
         }
     }

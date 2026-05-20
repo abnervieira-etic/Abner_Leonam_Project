@@ -1,21 +1,23 @@
 using System.Collections;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
-public class Kick : MonoBehaviour
+public class KickAnim : MonoBehaviour
 {
-       public KeyCode kickKey = KeyCode.J;
+    public KeyCode kickKey = KeyCode.J;
     [SerializeField] GameObject feet;
+    [SerializeField] GameObject attackGM;
     [SerializeField] Quaternion target;
+    [SerializeField] float kickDelay;
 
     Quaternion initial;
 
     Quaternion currentTarget; 
-    Animator animator;
+    [SerializeField] Animator animator;
     void Awake()
     {
-
         initial = transform.rotation;
         currentTarget = initial;
     }
@@ -25,24 +27,35 @@ public class Kick : MonoBehaviour
         transform.rotation = Quaternion.RotateTowards(transform.rotation, currentTarget, step*800);
         DoKick();
     }
+
     async void DoKick()
     {
-        if (Input.GetKeyDown(kickKey))
-        {
-            StopAllCoroutines();
-            StartCoroutine(KickDelay());
-            
-        }
-    }
 
+        if (Input.GetKey(kickKey))
+        {
+            currentTarget = target;
+        }
+
+        if (Input.GetKeyUp(kickKey))
+        {
+            StartCoroutine(KickDelay());
+
+            Attack();
+        }
+        
+    }
+    
     IEnumerator KickDelay()
     {
         currentTarget = target;
-        print("triggered");
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(kickDelay);
 
         currentTarget = initial;
         
     }
 
+    void Attack()
+    {
+        animator.SetTrigger("attack");
+    }
 }

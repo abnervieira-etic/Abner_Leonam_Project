@@ -7,17 +7,19 @@ TagManager:
   - leftGoal
   - rightGoal
   - Ball
+  - Player2
+  - Player1
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - P2
   - Water
   - UI
   - ground
   - leftGoal
   - rightGoal
-  - 
+  - P1
   - 
   - 
   - 
