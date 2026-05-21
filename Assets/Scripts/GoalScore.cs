@@ -1,3 +1,5 @@
+using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class GoalScore : MonoBehaviour
@@ -22,6 +24,7 @@ public class GoalScore : MonoBehaviour
                 BallSpawner.Ballinstance.SpawnSystem();
                 Player1.P1instance.ResetPos();
                 Player1.P2instance.ResetPos();
+                StartCoroutine(P1WinnerZoom());
             }
             else if (gameObject.CompareTag ("rightGoal"))
             {
@@ -29,7 +32,29 @@ public class GoalScore : MonoBehaviour
                 BallSpawner.Ballinstance.SpawnSystem();
                 Player1.P1instance.ResetPos();
                 Player1.P2instance.ResetPos();
+                StartCoroutine(P2WinnerZoom());
             }
-        }
+        } 
     }
+
+    IEnumerator P1WinnerZoom()
+    {
+        CinemachineTargetGroup targetGroup = FindObjectOfType<CinemachineTargetGroup>();
+        targetGroup.Targets[0].Weight = 0f; 
+        targetGroup.Targets[1].Weight = 1f; 
+        yield return new WaitForSeconds(2f);
+        targetGroup.Targets[0].Weight = 1f; 
+        targetGroup.Targets[1].Weight = 1f; 
+    }
+
+    IEnumerator P2WinnerZoom()
+    {
+        CinemachineTargetGroup targetGroup = FindObjectOfType<CinemachineTargetGroup>();
+        targetGroup.Targets[0].Weight = 1f; 
+        targetGroup.Targets[1].Weight = 0f; 
+        yield return new WaitForSeconds(2f);
+        targetGroup.Targets[0].Weight = 1f; 
+        targetGroup.Targets[1].Weight = 1f; 
+    }
+
 }

@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 
 public class Player1 : MonoBehaviour
@@ -23,7 +24,7 @@ public class Player1 : MonoBehaviour
     public Vector3 spawnPos;
 
     public KeyCode jumpKey = KeyCode.H;
-
+    public bool canMove;
     void Awake()
     {
         pPos = spawnPos;
@@ -33,7 +34,7 @@ public class Player1 : MonoBehaviour
     }
     void Start()
     {   
-
+        canMove = true;
         P1instance = this;
         rb1 = GetComponent<Rigidbody2D>();       
         
@@ -46,10 +47,17 @@ public class Player1 : MonoBehaviour
 
     public void ResetPos()
     {
+        StartCoroutine(BlockMove());
         rb1.linearVelocity = Vector2.zero;
         transform.position = pPos;
     }
 
+    IEnumerator BlockMove()
+    {
+        canMove = false;
+        yield return new WaitForSeconds(2f);
+        canMove = true;
+    }
     void Update()
     {
         IsGrounded();
@@ -116,6 +124,7 @@ public class Player1 : MonoBehaviour
 
     void Movement()
     {
+        if (!canMove) return;
         rb1.linearVelocityX = Input.GetAxis("Horizontal"+player) * speed; 
     }
 
