@@ -12,6 +12,7 @@ public class Player1 : MonoBehaviour
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private float distance = 1f;
     private bool isGrounded;
+    public bool Grounded => isGrounded;
     private float jumpChargeRate = 10f;
     float moveX;
     float currentJumpForce;
@@ -128,4 +129,17 @@ public class Player1 : MonoBehaviour
         rb1.linearVelocityX = Input.GetAxis("Horizontal"+player) * speed; 
     }
 
+    #region Modifiers
+    public IEnumerator Fly()
+    {
+        isGrounded = true;
+        maxJumpForce = 10f;
+        yield return new WaitForSeconds(5f);
+        maxJumpForce = 5f;
+        isGrounded = false;
+    }
+    
+    
+
+    #endregion
 }
