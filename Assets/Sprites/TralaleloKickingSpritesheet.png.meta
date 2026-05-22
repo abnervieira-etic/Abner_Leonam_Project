@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 6ec953fd36b2336479c5dbd682923690
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2325432816709763330
+    second: TralaleloKickingSpritesheet_0
+  - first:
+      213: 5476716853054165892
+    second: TralaleloKickingSpritesheet_1
+  - first:
+      213: 6294565722260125107
+    second: TralaleloKickingSpritesheet_2
+  - first:
+      213: 1427973184657841726
+    second: TralaleloKickingSpritesheet_3
+  - first:
+      213: 870355392426513176
+    second: TralaleloKickingSpritesheet_4
+  - first:
+      213: 8601088661119461058
+    second: TralaleloKickingSpritesheet_5
+  - first:
+      213: 2778643369441181573
+    second: TralaleloKickingSpritesheet_6
+  - first:
+      213: -3142805939811353529
+    second: TralaleloKickingSpritesheet_7
+  - first:
+      213: -6718963089805981981
+    second: TralaleloKickingSpritesheet_8
+  - first:
+      213: 1061826450214462478
+    second: TralaleloKickingSpritesheet_9
+  - first:
+      213: 7935304275581507448
+    second: TralaleloKickingSpritesheet_10
+  - first:
+      213: 4565109669207562108
+    second: TralaleloKickingSpritesheet_11
+  - first:
+      213: 7759503849550977590
+    second: TralaleloKickingSpritesheet_12
+  - first:
+      213: -7524468533280056095
+    second: TralaleloKickingSpritesheet_13
+  - first:
+      213: 4714275016490192992
+    second: TralaleloKickingSpritesheet_14
+  - first:
+      213: 2624396947424165440
+    second: TralaleloKickingSpritesheet_15
+  - first:
+      213: -8932691859640314481
+    second: TralaleloKickingSpritesheet_16
+  - first:
+      213: -3983528427257750236
+    second: TralaleloKickingSpritesheet_17
+  - first:
+      213: 8490713375748058405
+    second: TralaleloKickingSpritesheet_18
+  - first:
+      213: 3864929800955599746
+    second: TralaleloKickingSpritesheet_19
+  - first:
+      213: -3271006482650221173
+    second: TralaleloKickingSpritesheet_20
+  - first:
+      213: 7759897774289396098
+    second: TralaleloKickingSpritesheet_21
+  - first:
+      213: 7016180995134696361
+    second: TralaleloKickingSpritesheet_22
+  - first:
+      213: -689485267458875827
+    second: TralaleloKickingSpritesheet_23
+  - first:
+      213: -6214989572225279514
+    second: TralaleloKickingSpritesheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1784
+        width: 626
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201850d73d8954020800000000000000
+      internalID: 2325432816709763330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1794
+        width: 630
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48350b106f4310c40800000000000000
+      internalID: 5476716853054165892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1804
+        width: 633
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b53aa2ac2aca5750800000000000000
+      internalID: 6294565722260125107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 1810
+        width: 642
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e5054bb0e21d310800000000000000
+      internalID: 1427973184657841726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 1808
+        width: 662
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8139de93e9f141c00800000000000000
+      internalID: 870355392426513176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3964
+        y: 1806
+        width: 679
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c66aa711943d5770800000000000000
+      internalID: 8601088661119461058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 4728
+        y: 1804
+        width: 693
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f39013c69bf8620800000000000000
+      internalID: 2778643369441181573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1223
+        width: 706
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c7e8726a28264d0800000000000000
+      internalID: -3142805939811353529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 1221
+        width: 716
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6472d1ba271c2a0800000000000000
+      internalID: -6718963089805981981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1220
+        width: 722
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04a52ad78d5cbe00800000000000000
+      internalID: 1061826450214462478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1217
+        width: 716
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8779ca2123ddf1e60800000000000000
+      internalID: 7935304275581507448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3149
+        y: 1215
+        width: 709
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7751d1ae078a5f30800000000000000
+      internalID: 4565109669207562108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3938
+        y: 1213
+        width: 702
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a13c9b3ab4fab60800000000000000
+      internalID: 7759503849550977590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 4729
+        y: 1211
+        width: 691
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecdc3e3cb7b39790800000000000000
+      internalID: -7524468533280056095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 630
+        width: 681
+        height: 429
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060956376287c6140800000000000000
+      internalID: 4714275016490192992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 628
+        width: 669
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e36d87e1bbb6420800000000000000
+      internalID: 2624396947424165440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 626
+        width: 656
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f859d12c414b80480800000000000000
+      internalID: -8932691859640314481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 2440
+        y: 624
+        width: 640
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d91a4400aa7b8c0800000000000000
+      internalID: -3983528427257750236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 614
+        width: 625
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dee1b54d215d570800000000000000
+      internalID: 8490713375748058405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 4029
+        y: 602
+        width: 610
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b97cb3d2df2a530800000000000000
+      internalID: 3864929800955599746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4814
+        y: 590
+        width: 604
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8532af3fec0b92d0800000000000000
+      internalID: -3271006482650221173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 604
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2812dd979e1b0bb60800000000000000
+      internalID: 7759897774289396098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 8
+        width: 603
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aba9d6117b7e5160800000000000000
+      internalID: 7016180995134696361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 21
+        width: 613
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e9f336dc47e66f0800000000000000
+      internalID: -689485267458875827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloKickingSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 34
+        width: 622
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e951c899ebefb9a0800000000000000
+      internalID: -6214989572225279514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TralaleloKickingSpritesheet_0: 2325432816709763330
+      TralaleloKickingSpritesheet_1: 5476716853054165892
+      TralaleloKickingSpritesheet_10: 7935304275581507448
+      TralaleloKickingSpritesheet_11: 4565109669207562108
+      TralaleloKickingSpritesheet_12: 7759503849550977590
+      TralaleloKickingSpritesheet_13: -7524468533280056095
+      TralaleloKickingSpritesheet_14: 4714275016490192992
+      TralaleloKickingSpritesheet_15: 2624396947424165440
+      TralaleloKickingSpritesheet_16: -8932691859640314481
+      TralaleloKickingSpritesheet_17: -3983528427257750236
+      TralaleloKickingSpritesheet_18: 8490713375748058405
+      TralaleloKickingSpritesheet_19: 3864929800955599746
+      TralaleloKickingSpritesheet_2: 6294565722260125107
+      TralaleloKickingSpritesheet_20: -3271006482650221173
+      TralaleloKickingSpritesheet_21: 7759897774289396098
+      TralaleloKickingSpritesheet_22: 7016180995134696361
+      TralaleloKickingSpritesheet_23: -689485267458875827
+      TralaleloKickingSpritesheet_24: -6214989572225279514
+      TralaleloKickingSpritesheet_3: 1427973184657841726
+      TralaleloKickingSpritesheet_4: 870355392426513176
+      TralaleloKickingSpritesheet_5: 8601088661119461058
+      TralaleloKickingSpritesheet_6: 2778643369441181573
+      TralaleloKickingSpritesheet_7: -3142805939811353529
+      TralaleloKickingSpritesheet_8: -6718963089805981981
+      TralaleloKickingSpritesheet_9: 1061826450214462478
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

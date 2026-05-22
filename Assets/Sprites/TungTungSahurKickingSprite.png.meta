@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 5e0faad1660576e40943b907abba6ec5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9006943897649718328
+    second: TungTungSahurKickingSprite_0
+  - first:
+      213: -8320094197567419510
+    second: TungTungSahurKickingSprite_1
+  - first:
+      213: 7124346898202930111
+    second: TungTungSahurKickingSprite_2
+  - first:
+      213: 4275647303878211927
+    second: TungTungSahurKickingSprite_3
+  - first:
+      213: -7770956305797513706
+    second: TungTungSahurKickingSprite_4
+  - first:
+      213: 3425436277323101231
+    second: TungTungSahurKickingSprite_5
+  - first:
+      213: -6952077109677292009
+    second: TungTungSahurKickingSprite_6
+  - first:
+      213: 8352173025968934671
+    second: TungTungSahurKickingSprite_7
+  - first:
+      213: -6287543897500377832
+    second: TungTungSahurKickingSprite_8
+  - first:
+      213: 2186811174535370235
+    second: TungTungSahurKickingSprite_9
+  - first:
+      213: 2651021180564845933
+    second: TungTungSahurKickingSprite_10
+  - first:
+      213: 3330179857001060187
+    second: TungTungSahurKickingSprite_11
+  - first:
+      213: -247721249593703437
+    second: TungTungSahurKickingSprite_12
+  - first:
+      213: 1666492587895129173
+    second: TungTungSahurKickingSprite_13
+  - first:
+      213: 975197022769221891
+    second: TungTungSahurKickingSprite_14
+  - first:
+      213: 2401829525134065597
+    second: TungTungSahurKickingSprite_15
+  - first:
+      213: 8069377128362549332
+    second: TungTungSahurKickingSprite_16
+  - first:
+      213: -170249205536755175
+    second: TungTungSahurKickingSprite_17
+  - first:
+      213: -1917400836431622162
+    second: TungTungSahurKickingSprite_18
+  - first:
+      213: -5092235311232658953
+    second: TungTungSahurKickingSprite_19
+  - first:
+      213: 1158288195569904055
+    second: TungTungSahurKickingSprite_20
+  - first:
+      213: -7211673140267977234
+    second: TungTungSahurKickingSprite_21
+  - first:
+      213: 3476830905785541541
+    second: TungTungSahurKickingSprite_22
+  - first:
+      213: 9179464703153827399
+    second: TungTungSahurKickingSprite_23
+  - first:
+      213: 4315638020928105248
+    second: TungTungSahurKickingSprite_24
+  - first:
+      213: 5851728370809261905
+    second: TungTungSahurKickingSprite_25
+  - first:
+      213: 3234141424817088429
+    second: TungTungSahurKickingSprite_26
+  - first:
+      213: 2371449162922756148
+    second: TungTungSahurKickingSprite_27
+  - first:
+      213: -3855877683313383783
+    second: TungTungSahurKickingSprite_28
+  - first:
+      213: 2984874987394678892
+    second: TungTungSahurKickingSprite_29
+  - first:
+      213: -3038290971807486141
+    second: TungTungSahurKickingSprite_30
+  - first:
+      213: -4024754171698120646
+    second: TungTungSahurKickingSprite_31
+  - first:
+      213: -1185992900574523421
+    second: TungTungSahurKickingSprite_32
+  - first:
+      213: -1442153481007927339
+    second: TungTungSahurKickingSprite_33
+  - first:
+      213: 3052166844953679702
+    second: TungTungSahurKickingSprite_34
+  - first:
+      213: -7724070612915401160
+    second: TungTungSahurKickingSprite_35
+  - first:
+      213: 9104984315595359245
+    second: TungTungSahurKickingSprite_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 8265
+        width: 467
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb57b4fe38e00380800000000000000
+      internalID: -9006943897649718328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_1
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 8261
+        width: 443
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b8438b866198c80800000000000000
+      internalID: -8320094197567419510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_2
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 8259
+        width: 425
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbaa0ce1c3ced260800000000000000
+      internalID: 7124346898202930111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_3
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 7570
+        width: 416
+        height: 658
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759748cc196265b30800000000000000
+      internalID: 4275647303878211927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_4
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 7569
+        width: 429
+        height: 664
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e7bd38964082490800000000000000
+      internalID: -7770956305797513706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_5
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 7568
+        width: 440
+        height: 665
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24749e3528998f20800000000000000
+      internalID: 3425436277323101231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6881
+        width: 449
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7168f82d3b2458f90800000000000000
+      internalID: -6952077109677292009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_7
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 6881
+        width: 457
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f4a7b8d11e8e370800000000000000
+      internalID: 8352173025968934671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_8
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 6881
+        width: 462
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d90d753282eb8a0800000000000000
+      internalID: -6287543897500377832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 6195
+        width: 465
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf519015d2d195e10800000000000000
+      internalID: 2186811174535370235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_10
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 6196
+        width: 461
+        height: 646
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65ba9fc7b15ac420800000000000000
+      internalID: 2651021180564845933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_11
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 6196
+        width: 454
+        height: 648
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5795b69fec273e20800000000000000
+      internalID: 3330179857001060187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_12
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 5508
+        width: 444
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3c6a206daef8cf0800000000000000
+      internalID: -247721249593703437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_13
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 5508
+        width: 434
+        height: 655
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5548f42ed22902710800000000000000
+      internalID: 1666492587895129173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_14
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 5508
+        width: 422
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3019d208688988d00800000000000000
+      internalID: 975197022769221891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 4821
+        width: 417
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf39a84a33055120800000000000000
+      internalID: 2401829525134065597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_16
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 4820
+        width: 436
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45026beaebf2cff60800000000000000
+      internalID: 8069377128362549332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_17
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 4821
+        width: 458
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91270b4ef3723adf0800000000000000
+      internalID: -170249205536755175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_18
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 4133
+        width: 491
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefc47c19160465e0800000000000000
+      internalID: -1917400836431622162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_19
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 4133
+        width: 523
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1d649d6feb459b0800000000000000
+      internalID: -5092235311232658953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_20
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 4133
+        width: 557
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9e87c1af0131010800000000000000
+      internalID: 1158288195569904055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3446
+        width: 586
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5f91eec7dfaeb90800000000000000
+      internalID: -7211673140267977234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_22
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 3446
+        width: 612
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3627ba94f204030800000000000000
+      internalID: 3476830905785541541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_23
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 3447
+        width: 614
+        height: 629
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e68bb3382046f70800000000000000
+      internalID: 9179464703153827399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2760
+        width: 599
+        height: 631
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02be6903ae934eb30800000000000000
+      internalID: 4315638020928105248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_25
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 2761
+        width: 586
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f492013f3853150800000000000000
+      internalID: 5851728370809261905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_26
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 2762
+        width: 573
+        height: 633
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7299b9d7af1ec20800000000000000
+      internalID: 3234141424817088429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2076
+        width: 560
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43888eef27419e020800000000000000
+      internalID: 2371449162922756148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_28
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2077
+        width: 545
+        height: 635
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996efb42dab2d7ac0800000000000000
+      internalID: -3855877683313383783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_29
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 2077
+        width: 534
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60cb9a8cf76c6920800000000000000
+      internalID: 2984874987394678892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_30
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1388
+        width: 527
+        height: 641
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f632d6572d5d5d0800000000000000
+      internalID: -3038290971807486141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_31
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1387
+        width: 519
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3879a7a7633528c0800000000000000
+      internalID: -4024754171698120646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_32
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1386
+        width: 510
+        height: 647
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efce179db18a8fe0800000000000000
+      internalID: -1185992900574523421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_33
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 699
+        width: 503
+        height: 649
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfede4cc017cfbe0800000000000000
+      internalID: -1442153481007927339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_34
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 700
+        width: 495
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65750bc03997b5a20800000000000000
+      internalID: 3052166844953679702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_35
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 701
+        width: 485
+        height: 651
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ec42193b69ec490800000000000000
+      internalID: -7724070612915401160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TungTungSahurKickingSprite_36
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 17
+        width: 476
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d048098aef66b5e70800000000000000
+      internalID: 9104984315595359245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TungTungSahurKickingSprite_0: -9006943897649718328
+      TungTungSahurKickingSprite_1: -8320094197567419510
+      TungTungSahurKickingSprite_10: 2651021180564845933
+      TungTungSahurKickingSprite_11: 3330179857001060187
+      TungTungSahurKickingSprite_12: -247721249593703437
+      TungTungSahurKickingSprite_13: 1666492587895129173
+      TungTungSahurKickingSprite_14: 975197022769221891
+      TungTungSahurKickingSprite_15: 2401829525134065597
+      TungTungSahurKickingSprite_16: 8069377128362549332
+      TungTungSahurKickingSprite_17: -170249205536755175
+      TungTungSahurKickingSprite_18: -1917400836431622162
+      TungTungSahurKickingSprite_19: -5092235311232658953
+      TungTungSahurKickingSprite_2: 7124346898202930111
+      TungTungSahurKickingSprite_20: 1158288195569904055
+      TungTungSahurKickingSprite_21: -7211673140267977234
+      TungTungSahurKickingSprite_22: 3476830905785541541
+      TungTungSahurKickingSprite_23: 9179464703153827399
+      TungTungSahurKickingSprite_24: 4315638020928105248
+      TungTungSahurKickingSprite_25: 5851728370809261905
+      TungTungSahurKickingSprite_26: 3234141424817088429
+      TungTungSahurKickingSprite_27: 2371449162922756148
+      TungTungSahurKickingSprite_28: -3855877683313383783
+      TungTungSahurKickingSprite_29: 2984874987394678892
+      TungTungSahurKickingSprite_3: 4275647303878211927
+      TungTungSahurKickingSprite_30: -3038290971807486141
+      TungTungSahurKickingSprite_31: -4024754171698120646
+      TungTungSahurKickingSprite_32: -1185992900574523421
+      TungTungSahurKickingSprite_33: -1442153481007927339
+      TungTungSahurKickingSprite_34: 3052166844953679702
+      TungTungSahurKickingSprite_35: -7724070612915401160
+      TungTungSahurKickingSprite_36: 9104984315595359245
+      TungTungSahurKickingSprite_4: -7770956305797513706
+      TungTungSahurKickingSprite_5: 3425436277323101231
+      TungTungSahurKickingSprite_6: -6952077109677292009
+      TungTungSahurKickingSprite_7: 8352173025968934671
+      TungTungSahurKickingSprite_8: -6287543897500377832
+      TungTungSahurKickingSprite_9: 2186811174535370235
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

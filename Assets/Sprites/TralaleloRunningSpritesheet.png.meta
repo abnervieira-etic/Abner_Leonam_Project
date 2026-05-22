@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 1ac7cdc81ed05ce48b4b082c1fd039f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8007950753970897035
+    second: TralaleloRunningSpritesheet_0
+  - first:
+      213: 1948638181274514676
+    second: TralaleloRunningSpritesheet_1
+  - first:
+      213: 5844003239779359536
+    second: TralaleloRunningSpritesheet_2
+  - first:
+      213: 1915199049533014614
+    second: TralaleloRunningSpritesheet_3
+  - first:
+      213: -2813403605052251064
+    second: TralaleloRunningSpritesheet_4
+  - first:
+      213: 8998205511936901477
+    second: TralaleloRunningSpritesheet_5
+  - first:
+      213: -1051125631738329138
+    second: TralaleloRunningSpritesheet_6
+  - first:
+      213: 6687792788326446004
+    second: TralaleloRunningSpritesheet_7
+  - first:
+      213: -2142414310264448163
+    second: TralaleloRunningSpritesheet_8
+  - first:
+      213: -2856108528072258060
+    second: TralaleloRunningSpritesheet_9
+  - first:
+      213: -1032347383486043917
+    second: TralaleloRunningSpritesheet_10
+  - first:
+      213: 4429530182752978922
+    second: TralaleloRunningSpritesheet_11
+  - first:
+      213: -2380117384277971834
+    second: TralaleloRunningSpritesheet_12
+  - first:
+      213: 255472127084121202
+    second: TralaleloRunningSpritesheet_13
+  - first:
+      213: -8035478590529187157
+    second: TralaleloRunningSpritesheet_14
+  - first:
+      213: 5203799549734446457
+    second: TralaleloRunningSpritesheet_15
+  - first:
+      213: -1917658432971033179
+    second: TralaleloRunningSpritesheet_16
+  - first:
+      213: -7968042227006126667
+    second: TralaleloRunningSpritesheet_17
+  - first:
+      213: 3079600843837811977
+    second: TralaleloRunningSpritesheet_18
+  - first:
+      213: -1767686189982041830
+    second: TralaleloRunningSpritesheet_19
+  - first:
+      213: -5062088240481229522
+    second: TralaleloRunningSpritesheet_20
+  - first:
+      213: -2284690089496017939
+    second: TralaleloRunningSpritesheet_21
+  - first:
+      213: -2158771332928108519
+    second: TralaleloRunningSpritesheet_22
+  - first:
+      213: 6837950911512229807
+    second: TralaleloRunningSpritesheet_23
+  - first:
+      213: -5398090171376975934
+    second: TralaleloRunningSpritesheet_24
+  - first:
+      213: -455686787346549926
+    second: TralaleloRunningSpritesheet_25
+  - first:
+      213: -4403955833774181332
+    second: TralaleloRunningSpritesheet_26
+  - first:
+      213: 4673203160261011942
+    second: TralaleloRunningSpritesheet_27
+  - first:
+      213: 9030692440032819071
+    second: TralaleloRunningSpritesheet_28
+  - first:
+      213: 9048325631067385410
+    second: TralaleloRunningSpritesheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2040
+        width: 627
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f3eba973b0ed090800000000000000
+      internalID: -8007950753970897035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2044
+        width: 627
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f471aef914fa0b10800000000000000
+      internalID: 1948638181274514676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2047
+        width: 628
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bd745dbf11a1150800000000000000
+      internalID: 5844003239779359536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 2051
+        width: 628
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652c49d6367249a10800000000000000
+      internalID: 1915199049533014614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 2054
+        width: 629
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844ae07c358c4f8d0800000000000000
+      internalID: -2813403605052251064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3270
+        y: 2059
+        width: 629
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56106f21d3c00ec70800000000000000
+      internalID: 8998205511936901477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 2056
+        width: 628
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7cde99ec6a961f0800000000000000
+      internalID: -1051125631738329138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1548
+        width: 627
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3fd978b10dfcc50800000000000000
+      internalID: 6687792788326446004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1543
+        width: 624
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b59fa298d9442e0800000000000000
+      internalID: -2142414310264448163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1537
+        width: 623
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd0a401d601d58d0800000000000000
+      internalID: -2856108528072258060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 1532
+        width: 621
+        height: 459
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8a28a368d5ca1f0800000000000000
+      internalID: -1032347383486043917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 1527
+        width: 619
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7ccd88b3ad87d30800000000000000
+      internalID: 4429530182752978922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 1523
+        width: 617
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c216279df18fed0800000000000000
+      internalID: -2380117384277971834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3942
+        y: 1519
+        width: 614
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cccd8cb8e9b8300800000000000000
+      internalID: 255472127084121202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1020
+        width: 616
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba25043bbce3c7090800000000000000
+      internalID: -8035478590529187157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1024
+        width: 619
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975624c9e1c973840800000000000000
+      internalID: 5203799549734446457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1029
+        width: 620
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5ba3eb0db1365e0800000000000000
+      internalID: -1917658432971033179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1034
+        width: 623
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5ccff9fc3db6190800000000000000
+      internalID: -7968042227006126667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 1040
+        width: 624
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d22faa6a0fcba20800000000000000
+      internalID: 3079600843837811977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 1045
+        width: 626
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19b1cb96cae777e0800000000000000
+      internalID: -1767686189982041830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 3926
+        y: 1051
+        width: 627
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e252f6cb099dfb9b0800000000000000
+      internalID: -5062088240481229522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 552
+        width: 628
+        height: 435
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de30cb9e7762b40e0800000000000000
+      internalID: -2284690089496017939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 544
+        width: 626
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918068d09e08a02e0800000000000000
+      internalID: -2158771332928108519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 536
+        width: 624
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7be30002845ee50800000000000000
+      internalID: 6837950911512229807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 530
+        width: 621
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf3c85e6912615b0800000000000000
+      internalID: -5398090171376975934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2629
+        y: 523
+        width: 619
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53be5ff7431da9f0800000000000000
+      internalID: -455686787346549926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 517
+        width: 615
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c247169908102e2c0800000000000000
+      internalID: -4403955833774181332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 517
+        width: 616
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9279ab38d8ad040800000000000000
+      internalID: 4673203160261011942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 20
+        width: 620
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7736f37de6735d70800000000000000
+      internalID: 9030692440032819071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TralaleloRunningSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 25
+        width: 624
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e65dba83c129d70800000000000000
+      internalID: 9048325631067385410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TralaleloRunningSpritesheet_0: -8007950753970897035
+      TralaleloRunningSpritesheet_1: 1948638181274514676
+      TralaleloRunningSpritesheet_10: -1032347383486043917
+      TralaleloRunningSpritesheet_11: 4429530182752978922
+      TralaleloRunningSpritesheet_12: -2380117384277971834
+      TralaleloRunningSpritesheet_13: 255472127084121202
+      TralaleloRunningSpritesheet_14: -8035478590529187157
+      TralaleloRunningSpritesheet_15: 5203799549734446457
+      TralaleloRunningSpritesheet_16: -1917658432971033179
+      TralaleloRunningSpritesheet_17: -7968042227006126667
+      TralaleloRunningSpritesheet_18: 3079600843837811977
+      TralaleloRunningSpritesheet_19: -1767686189982041830
+      TralaleloRunningSpritesheet_2: 5844003239779359536
+      TralaleloRunningSpritesheet_20: -5062088240481229522
+      TralaleloRunningSpritesheet_21: -2284690089496017939
+      TralaleloRunningSpritesheet_22: -2158771332928108519
+      TralaleloRunningSpritesheet_23: 6837950911512229807
+      TralaleloRunningSpritesheet_24: -5398090171376975934
+      TralaleloRunningSpritesheet_25: -455686787346549926
+      TralaleloRunningSpritesheet_26: -4403955833774181332
+      TralaleloRunningSpritesheet_27: 4673203160261011942
+      TralaleloRunningSpritesheet_28: 9030692440032819071
+      TralaleloRunningSpritesheet_29: 9048325631067385410
+      TralaleloRunningSpritesheet_3: 1915199049533014614
+      TralaleloRunningSpritesheet_4: -2813403605052251064
+      TralaleloRunningSpritesheet_5: 8998205511936901477
+      TralaleloRunningSpritesheet_6: -1051125631738329138
+      TralaleloRunningSpritesheet_7: 6687792788326446004
+      TralaleloRunningSpritesheet_8: -2142414310264448163
+      TralaleloRunningSpritesheet_9: -2856108528072258060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

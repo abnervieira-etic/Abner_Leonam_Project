@@ -26,7 +26,7 @@ public class Modifiers : MonoBehaviour
     void Randomizer()
     {
         secondsBFSpawn = Random.Range(1, 5);
-        spawnPos = Random.Range(0, 2) == 0 ? point1.position : point2.position;
+       // spawnPos = Random.Range(0, 2) == 0 ? point1.position : point2.position;
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -51,7 +51,7 @@ public class Modifiers : MonoBehaviour
     IEnumerator SpawnSystem()
     {
         yield return new WaitForSeconds(secondsBFSpawn);
-        ObjectPooler.Instance.PullObject(spawnPos);
+        //ObjectPooler.Instance.PullObject(spawnPos);
         yield return new WaitForSeconds(secondsBFSpawn);
         ObjectPooler.Instance.ReturnObject(gameObject);
     }
