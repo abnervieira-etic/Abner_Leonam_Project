@@ -26,9 +26,9 @@ Transform:
   m_GameObject: {fileID: 2349751418787692288}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.016, z: 0}
-  m_LocalScale: {x: 0.409, y: 0.4401, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: -0.000000014901161, y: -0.016, z: 0}
+  m_LocalScale: {x: 0.11, y: 0.118364304, z: 0.26894864}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2271441248611046086}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -4358706673374177817, guid: 8d208232070dbac489568271f86bbf5a, type: 3}
   m_Color: {r: 1, g: 0.2216981, b: 0.2216981, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: -3119845893191460745}
   - component: {fileID: 4146753327494833803}
   m_Layer: 0
-  m_Name: speed-Modifier 3
+  m_Name: BIGPLAYERS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,7 +174,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7728925, g: 0, b: 1, a: 0.2784314}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -197,9 +197,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Modifiers
   modifierDuration: 5
-  modifierType: speed
+  modifierType: BIGPLAYERS
   point1: {fileID: 698668476079883068, guid: e64e538e316d6094db01a25ed25979bb, type: 3}
   point2: {fileID: 7417553851372192782, guid: 85d2e29d8cf8ae64c98f80c5469b0bbd, type: 3}
+  moveAmount: 0.3
+  moveSpeed: 2
+  isFlying: 0
+  canStrike2X: 0
+  xGoalSize: 0
+  yGoalSize: 0
+  GoalTrigger: {fileID: 0}
+  goalSprite: {fileID: 0}
+  Scenary: {fileID: 0}
 --- !u!58 &-3119845893191460745
 CircleCollider2D:
   m_ObjectHideFlags: 0

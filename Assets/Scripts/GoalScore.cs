@@ -2,18 +2,10 @@ using System.Collections;
 using Unity.Cinemachine;
 using UnityEngine;
 
+
+
 public class GoalScore : MonoBehaviour
 {
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-        
-    }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Ball"))
@@ -25,6 +17,9 @@ public class GoalScore : MonoBehaviour
                 Player1.P1instance.ResetPos();
                 Player1.P2instance.ResetPos();
                 StartCoroutine(P1WinnerZoom());
+                UImanager.instance.CallGoal(); 
+                UImanager.instance.HideModifier();
+                ReturnModifier();
             }
             else if (gameObject.CompareTag ("rightGoal"))
             {
@@ -32,9 +27,19 @@ public class GoalScore : MonoBehaviour
                 BallSpawner.Ballinstance.SpawnSystem();
                 Player1.P1instance.ResetPos();
                 Player1.P2instance.ResetPos();
-                StartCoroutine(P2WinnerZoom());
+                StartCoroutine(P2WinnerZoom()); 
+                UImanager.instance.CallGoal(); 
+                UImanager.instance.HideModifier();
+                ReturnModifier();  
             }
         } 
+    }
+    void ReturnModifier()
+    {
+        if (ModifierManager.instance.activeModifier != null)
+        {
+            OBJpooler.Instance.ReturnObject(ModifierManager.instance.activeModifier);
+        }
     }
 
     IEnumerator P1WinnerZoom()

@@ -9,10 +9,12 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager SMinstance;
     [SerializeField] TMP_Text leftGoalTxt;
     [SerializeField] TMP_Text rightGoalTxt;
+    private bool doubleGoal;
     void Start()
     {
         if (SMinstance == null)
             SMinstance = this;
+
     }
 
     void Update()
@@ -23,11 +25,11 @@ public class ScoreManager : MonoBehaviour
        public void AddScore1()
     {
         leftGoalScore++;
-        leftGoalTxt.text = "" + leftGoalScore.ToString();
+        leftGoalTxt.text = "" + leftGoalScore.ToString();            
     }
        public void AddScore2()
     {
         rightGoalScore++;
-        rightGoalTxt.text = "" + rightGoalScore.ToString();
+        rightGoalTxt.text = "" + rightGoalScore.ToString();   
     }
 }

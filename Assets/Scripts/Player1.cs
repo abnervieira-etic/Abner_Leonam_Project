@@ -6,22 +6,23 @@ public class Player1 : MonoBehaviour
 {
     [SerializeField] float speed = 2f;
     Rigidbody2D rb1; 
-    [SerializeField] Animator animator;
     [SerializeField] float maxJumpForce = 5f;
+    public float MaxJumpForce { get => maxJumpForce; set => maxJumpForce = value; }
     [SerializeField] float minJumpForce = 1.5f;
     [SerializeField] private LayerMask whatIsGround;
     [SerializeField] private float distance = 1f;
     private bool isGrounded;
-    public bool Grounded => isGrounded;
+    public bool Grounded { get => isGrounded; set => isGrounded = value; }
     private float jumpChargeRate = 10f;
     float moveX;
     float currentJumpForce;
     bool isJumping;
+    public bool Flying { get => isJumping; set => isJumping = value; }
     private Vector3 pPos;
     public static Player1 P1instance;
     public static Player1 P2instance;
-
     public int player;
+    public SpriteRenderer leg;
     public Vector3 spawnPos;
 
     public KeyCode jumpKey = KeyCode.H;
@@ -86,35 +87,27 @@ public class Player1 : MonoBehaviour
     void ChargeJump()
     {
 
-    if (Input.GetKeyDown(jumpKey) && isGrounded)
-    {
-        isJumping = true;
-        Jump();
-    }
-
-    // Enquanto segura, adiciona força extra progressivamente
-    if (Input.GetKey(jumpKey) && isJumping)
-    {
-        currentJumpForce += jumpChargeRate * Time.deltaTime;
-        currentJumpForce = Mathf.Clamp(currentJumpForce, minJumpForce, maxJumpForce);
-
-        rb1.linearVelocityY = currentJumpForce; 
-        
-        if (currentJumpForce >= maxJumpForce)
+        if (Input.GetKeyDown(jumpKey) && (isGrounded || Modifiers.instance.isFlying))
         {
+            isJumping = true;
+            currentJumpForce = minJumpForce;
+        }
+
+        if (Input.GetKey(jumpKey) && isJumping)
+        {
+            currentJumpForce += jumpChargeRate * Time.deltaTime;
+            currentJumpForce = Mathf.Clamp(currentJumpForce, minJumpForce, maxJumpForce);
+            rb1.linearVelocityY = currentJumpForce;
+
+        if (currentJumpForce >= maxJumpForce)
             isJumping = false;
         }
-    }
 
-    if (Input.GetKeyUp(jumpKey))
-    {
-        isJumping = false;
-    }
-    }
-
-    void Jump()
-    {
-        rb1.AddForce(Vector2.up * minJumpForce, ForceMode2D.Impulse);
+        if (Input.GetKeyUp(jumpKey))
+        {
+            isJumping = false;
+            currentJumpForce = minJumpForce;
+        }
     }
 
 
@@ -126,20 +119,6 @@ public class Player1 : MonoBehaviour
     void Movement()
     {
         if (!canMove) return;
-        rb1.linearVelocityX = Input.GetAxis("Horizontal"+player) * speed; 
+        rb1.linearVelocityX = Input.GetAxis("Horizontal"+ player) * speed; 
     }
-
-    #region Modifiers
-    public IEnumerator Fly()
-    {
-        isGrounded = true;
-        maxJumpForce = 10f;
-        yield return new WaitForSeconds(5f);
-        maxJumpForce = 5f;
-        isGrounded = false;
-    }
-    
-    
-
-    #endregion
 }

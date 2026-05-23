@@ -3,16 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectPooler : MonoBehaviour
+public class OBJpooler : MonoBehaviour
 {
-    [SerializeField] private GameObject[] prefab = new GameObject[4];
+    [SerializeField] private GameObject[] prefab = new GameObject[6];
     [SerializeField] private int poolSize;
     Queue<GameObject> pool = new Queue<GameObject>();
-    [SerializeField] Transform point1;
-    [SerializeField] Transform point2;
-    private Vector2 spawnPos;
+    public Vector2 spawnPos;
 
-    public static ObjectPooler Instance;
+    public static OBJpooler Instance;
 
     private void Awake()
     {
@@ -35,22 +33,25 @@ public class ObjectPooler : MonoBehaviour
 
         }
 
-        PullObject(spawnPos);
     }
 
-    public void PullObject(Vector3 position)
+    public GameObject PullObject(Vector3 position)
     {
-     if (pool.Count > 0)
-     {
-         GameObject obj = pool.Dequeue();
-         obj.SetActive(true);
-         obj.transform.position = position;
-     }
-     else
-     {
-        GameObject obj = Instantiate(prefab[UnityEngine.Random.Range(0, prefab.Length)], position, Quaternion.identity);
+    GameObject obj;
+    
+    if (pool.Count > 0)
+    {
+        obj = pool.Dequeue();
+        obj.SetActive(true);
         obj.transform.position = position;
-     }
+    }
+    else
+    {
+        obj = Instantiate(prefab[UnityEngine.Random.Range(0, prefab.Length)], position, Quaternion.identity);
+        obj.transform.position = position;
+    }
+
+    return obj;
     }
 
 

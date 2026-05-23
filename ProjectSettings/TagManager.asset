@@ -9,6 +9,8 @@ TagManager:
   - Ball
   - Player2
   - Player1
+  - Wall
+  - Foot
   layers:
   - Default
   - TransparentFX
@@ -21,8 +23,8 @@ TagManager:
   - rightGoal
   - P1
   - Ball
-  - 
-  - 
+  - Leg
+  - boundaries
   - 
   - 
   - 

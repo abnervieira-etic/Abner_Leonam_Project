@@ -39,8 +39,6 @@ public class KickAnim : MonoBehaviour
         if (Input.GetKeyUp(kickKey))
         {
             StartCoroutine(KickDelay());
-
-            Attack();
         }
         
     }
@@ -52,10 +50,5 @@ public class KickAnim : MonoBehaviour
 
         currentTarget = initial;
         
-    }
-
-    void Attack()
-    {
-        animator.SetTrigger("attack");
     }
 }
