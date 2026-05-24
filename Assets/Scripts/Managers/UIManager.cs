@@ -1,10 +1,13 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
-using System.Collections;
+using UnityEngine.SceneManagement;
 public class UImanager : MonoBehaviour
 {  
     [SerializeField] private TMP_Text modifierText;
     [SerializeField] private TMP_Text goalText;
+    [SerializeField] private string gameSceneName;
+
     public TMP_Text MOtext { get => modifierText; set => modifierText = value; }
     public static UImanager instance;
     void Awake()
@@ -46,5 +49,10 @@ public class UImanager : MonoBehaviour
         goalText.gameObject.SetActive(true);
         yield return new WaitForSeconds(2f);
         goalText.gameObject.SetActive(false);
+    }
+
+    public void ChangeGame()
+    {
+        SceneManager.LoadScene(gameSceneName);
     }
 }

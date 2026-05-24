@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class Modifiers : MonoBehaviour
@@ -38,6 +38,9 @@ public class Modifiers : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log($"P1instance: {Player1.P1instance}");
+        Debug.Log($"P2instance: {Player1.P2instance}");
+
         if (collision.gameObject.CompareTag("Player1") || collision.gameObject.CompareTag("Player2") || collision.gameObject.CompareTag("Ball"))
         {
            UImanager.instance.CallModifierTxt(modifierType, modifierDuration);
@@ -106,35 +109,36 @@ public class Modifiers : MonoBehaviour
     isFlying = flying;
     }
 
-    IEnumerator Small()
-    {
-        Player1.P1instance.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
-        Player1.P2instance.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
-        yield return new WaitForSeconds(modifierDuration);
-        Player1.P1instance.transform.localScale = new Vector3(1.3f, 1.3f, 1f);
-        Player1.P2instance.transform.localScale = new Vector3(1.3f, 1.3f, 1f);
-    }
+     IEnumerator Small()
+     {
+         Player1.P1instance.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+         Player1.P2instance.transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+         yield return new WaitForSeconds(modifierDuration);
+         Player1.P1instance.transform.localScale = new Vector3(1.3f, 1.3f, 1f);
+         Player1.P2instance.transform.localScale = new Vector3(1.3f, 1.3f, 1f);
+     }
 
-    IEnumerator Big()
-    {
-        Player1.P1instance.transform.localScale = new Vector3(2.5f, 2.5f, 1f);
-        Player1.P2instance.transform.localScale = new Vector3(2.5f, 2.5f, 1f);
-        yield return new WaitForSeconds(modifierDuration);
-        Player1.P1instance.transform.localScale = new Vector3(1.3f, 1.3f, 1f);
-        Player1.P2instance.transform.localScale = new Vector3(1.3f, 1.3f, 1f);
-    }
+     IEnumerator Big()
+     {
+         Player1.P1instance.transform.localScale = new Vector3(2.5f, 2.5f, 1f);
+         Player1.P2instance.transform.localScale = new Vector3(2.5f, 2.5f, 1f);
+         yield return new WaitForSeconds(modifierDuration);
+         Player1.P1instance.transform.localScale = new Vector3(1.3f, 1.3f, 1f);
+         Player1.P2instance.transform.localScale = new Vector3(1.3f, 1.3f, 1f);
+     }
 
-    IEnumerator Invisible()
-    {
-        Player1.P1instance.GetComponent<SpriteRenderer>().enabled = false;
-        Player1.P2instance.GetComponent<SpriteRenderer>().enabled = false;
-        Player1.P1instance.leg.enabled = false;
-        Player1.P2instance.leg.enabled = false;
-        yield return new WaitForSeconds(modifierDuration);
-        Player1.P1instance.GetComponent<SpriteRenderer>().enabled = true;
-        Player1.P2instance.GetComponent<SpriteRenderer>().enabled = true;
-        Player1.P1instance.leg.enabled = true;
-        Player1.P2instance.leg.enabled = true;
-    }
-
+     IEnumerator Invisible()
+     {
+         Player1.P1instance.GetComponent<SpriteRenderer>().enabled = false;
+         Player1.P2instance.GetComponent<SpriteRenderer>().enabled = false;
+         Player1.P1instance.leg.enabled = false;
+         Player1.P2instance.leg.enabled = false;
+         yield return new WaitForSeconds(modifierDuration);
+         Player1.P1instance.GetComponent<SpriteRenderer>().enabled = true;
+         Player1.P2instance.GetComponent<SpriteRenderer>().enabled = true;
+         Player1.P1instance.leg.enabled = true;
+         Player1.P2instance.leg.enabled = true;
+     }
+    
+  
 }

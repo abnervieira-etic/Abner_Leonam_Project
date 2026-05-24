@@ -1,4 +1,4 @@
-
+﻿
 using System.Collections;
 using UnityEngine;
 
@@ -37,7 +37,7 @@ public class Player1 : MonoBehaviour
     void Start()
     {   
         canMove = true;
-        P1instance = this;
+        
         rb1 = GetComponent<Rigidbody2D>();       
         
 
@@ -114,6 +114,14 @@ public class Player1 : MonoBehaviour
     void FixedUpdate()
     {
         Movement();
+        
+            if (!canMove) return;
+        {
+            string axis = (player == 1 || player == 2) ? "Horizontal" + player : "Horizontal";
+            rb1.linearVelocityX = Input.GetAxis(axis) * speed;
+        }
+           
+        
     }
 
     void Movement()

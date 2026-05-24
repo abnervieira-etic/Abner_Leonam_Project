@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class GoalScore : MonoBehaviour
 {
+
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Ball"))
@@ -19,6 +21,11 @@ public class GoalScore : MonoBehaviour
                 StartCoroutine(P1WinnerZoom());
                 UImanager.instance.CallGoal(); 
                 UImanager.instance.HideModifier();
+                SoundManager soundManager = FindObjectOfType<SoundManager>();
+                if (soundManager != null)
+                {
+                    soundManager.PlayTralaleloSound();
+                }
                 ReturnModifier();
             }
             else if (gameObject.CompareTag ("rightGoal"))
@@ -30,6 +37,11 @@ public class GoalScore : MonoBehaviour
                 StartCoroutine(P2WinnerZoom()); 
                 UImanager.instance.CallGoal(); 
                 UImanager.instance.HideModifier();
+                SoundManager soundManager = FindObjectOfType<SoundManager>();
+                if (soundManager != null)
+                {
+                    soundManager.PlayTungTungSound();
+                }
                 ReturnModifier();  
             }
         } 
@@ -62,4 +74,5 @@ public class GoalScore : MonoBehaviour
         targetGroup.Targets[1].Weight = 1f; 
     }
 
+   
 }

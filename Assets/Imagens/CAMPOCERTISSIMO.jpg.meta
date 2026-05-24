@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b4c09e3699d8de64e945df1bfb708d1c
+guid: cea4494ad33ec4f4892b81475143c798
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4550063714591234436
-    second: CAMPOCERTO_0
+      213: 3117626961048029918
+    second: CAMPOCERTISSIMO_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CAMPOCERTO_0
+      name: CAMPOCERTISSIMO_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c76256aa82dead0c0800000000000000
-      internalID: -4550063714591234436
+      spriteID: edac2730439044b20800000000000000
+      internalID: 3117626961048029918
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CAMPOCERTO_0: -4550063714591234436
+      CAMPOCERTISSIMO_0: 3117626961048029918
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
